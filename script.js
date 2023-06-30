@@ -193,8 +193,22 @@ else{
 
 // ************** Logical Operators ***************
 
+const hasDriversLicense = true;
+const hasGoodVision = false;
+const isTired = false;
+
+console.log(hasDriversLicense && hasGoodVision);
+console.log(hasDriversLicense || hasGoodVision);
+console.log(!hasDriversLicense);
 
 
+if(hasDriversLicense && hasGoodVision || isTired){
+  console.log('Nonse is eligible to drive');
+}
+
+else{
+    console.log('someon else should drive');
+}
 
 
 
